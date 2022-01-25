@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T02:27:51.328Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="16.3.0" etag="zKYsACdHKJ55jf1Lcqz2" type="github"><diagram id="l0v4O5yZWkWHHV_pHKKq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-25T02:34:12.503Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="ChfinBfDUcziH7bjazv5" version="16.3.0" type="github">
+  <diagram id="l0v4O5yZWkWHHV_pHKKq" name="Page-1">
+    <mxGraphModel dx="1422" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-1" value="亮屏操作" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="390" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-2" value="dde-dameon" style="swimlane;startSize=20;fillColor=#FFFF33;" vertex="1" parent="SAJIeFaOrD-RE8zUxKIk-1">
+          <mxGeometry y="20" width="190" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-19" value="处理stateOff事件" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#99FF33;" vertex="1" parent="SAJIeFaOrD-RE8zUxKIk-2">
+          <mxGeometry x="30" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-5" value="Xorg" style="swimlane;startSize=20;fillColor=#CCFF99;" vertex="1" parent="SAJIeFaOrD-RE8zUxKIk-1">
+          <mxGeometry x="190" y="20" width="200" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SAJIeFaOrD-RE8zUxKIk-5" source="SAJIeFaOrD-RE8zUxKIk-16" target="SAJIeFaOrD-RE8zUxKIk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-16" value="处理事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF33;" vertex="1" parent="SAJIeFaOrD-RE8zUxKIk-5">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-17" value="发送stateOff事件" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fillColor=#6666FF;" vertex="1" parent="SAJIeFaOrD-RE8zUxKIk-5">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SAJIeFaOrD-RE8zUxKIk-5" source="SAJIeFaOrD-RE8zUxKIk-21" target="SAJIeFaOrD-RE8zUxKIk-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-21" value="ProcDPMSForceLevel" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#CC99FF;" vertex="1" parent="SAJIeFaOrD-RE8zUxKIk-5">
+          <mxGeometry x="40" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-23" value="激活屏幕" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FF9933;" vertex="1" parent="SAJIeFaOrD-RE8zUxKIk-5">
+          <mxGeometry x="40" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SAJIeFaOrD-RE8zUxKIk-1" source="SAJIeFaOrD-RE8zUxKIk-17" target="SAJIeFaOrD-RE8zUxKIk-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SAJIeFaOrD-RE8zUxKIk-1" source="SAJIeFaOrD-RE8zUxKIk-19" target="SAJIeFaOrD-RE8zUxKIk-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-25" value="调用dpms扩展" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SAJIeFaOrD-RE8zUxKIk-22">
+          <mxGeometry x="-0.09" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-14" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SAJIeFaOrD-RE8zUxKIk-15" value="输入事件" style="triangle;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="580" y="400" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
